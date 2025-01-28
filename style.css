@@ -146,17 +146,36 @@ ul {
 .button-draw {
     display: flex;
     align-items: center;
-    width: 100%;
+    padding: 10px 40px;
+    color: var(--color-white);
+    background-color: var(--color-button);
+    font-size: 16px;
+    margin-right: 15px; /* Espacio entre los botones */
+}
+
+.button-draw img {
+    margin-right: 10px;
+}
+
+.button-draw:hover {
+    background-color: var(--color-button-hover);
+}
+
+/* Botón de nuevo sorteo */
+.button-reset {
     padding: 10px 40px;
     color: var(--color-white);
     background-color: var(--color-button);
     font-size: 16px;
 }
 
-.button-draw img {
-    margin-right: 40px;
+.button-reset:hover {
+    background-color: var(--color-button-hover);
 }
 
-.button-draw:hover {
-    background-color: var(--color-button-hover);
+/* Contenedor de botones */
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
